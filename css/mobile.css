@@ -1,0 +1,14 @@
+@media screen and (min-width: 428px) {
+    .container{
+        max-width: 426px;
+    }
+
+
+    /* -----FLOWER SECTION----- */
+  
+
+    /* -----SKY SECTION----- */
+    .container .container-mini{
+        max-width: 264px;
+    }
+}
