@@ -119,6 +119,7 @@
   .footer-box {
     gap: 120px;
     max-width: 592px;
+    margin-bottom: 0;
   }
   .footer-box-box {
     display: flex;

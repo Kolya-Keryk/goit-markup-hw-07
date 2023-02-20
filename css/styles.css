@@ -156,7 +156,9 @@ img {
   position: fixed;
   z-index: 1;
   width: 100%;
-  height: 100vh;
+  height: 100%;
+  top: 0;
+  left: 0;
   background-color: #fdfdfd;
   padding-top: 80px;
   padding-bottom: 40px;
@@ -630,12 +632,13 @@ img {
 .footer-btn:is(:hover, :focus) {
   background: #404bbf;
 }
-.footer-link-soc {
-  fill: #ffffff;
+.footer-icon-soc{
+fill: #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 /* --------PORTFOLIO */
 .header-portfolio {
   border: 1px solid #e7e9fc;
